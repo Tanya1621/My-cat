@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Pie</title>
+  </head>
+  <body class="page">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a href="#about" class="menu__list-link">О ПИРОЖКЕ</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#sleep" class="menu__list-link">ХОББИ</a>
+        </li>
+        <li class="menu__list-item"><a href="#play" class="menu__list-link">НАСТРОЕНИЕ</a></li>
+        <li class="menu__list-item">УМИЛИТЕЛЬНЫЕ ФОТО</li>
+      </ul>
+    </nav>
+   <section class="cat-photo">
+      <h1 class="cat-heading">Меня зовут Пирожок</h1>
+    </section>
+    <section class="about" id="about">
+      <div class="title">
+        <h2 class="about__title">Моя история</h2>
+         <div class="cards">
+           <div class="cards__item">
+            <img src="./images/babycat_hands.jpg" alt="" class="cards__image" />
+          </div>
+        </div>
+      </div>
+       <div class="about__story">
+        <p class="about__paragraph">
+          Это было еще в доковидные времена, 6 февраля 2017 года. Помню, было
+          светло, на улице завывала метель и был слышен стук зубов проходящих
+          внизу людишек. Я был смышленным котенком, много ел и все драл, так что
+          меня решили продать по скидке.
+        </p>
+        <p class="about__paragraph">
+          В один дождливый день пришла она, от нее приятно пахло, она была
+          нерасторопна и неуклюжа. Я сначала испугался, но по своей обычной
+          природе, я подошел к ней и своим тоненьким голоском приказал меня
+          почесать. Она склонилась и с радостью почесала мое пузико. Так Танюша
+          стала моей мамой-кошкой.
+        </p>
+        <p class="about__paragraph">
+          Придя домой я понял, что дома больше никого, но был еще один слабый
+          запах, я его решил проигнорировать и сразу занял кровать. Все было
+          прекрасно и я думал что попал в рай, пока не приехал он. Тиран,
+          безумец и самый добрый, ласковый не просто человек, а лучший друг
+          котеек - Николай Евгеньевич. И звать меня - Арагорн Потапов или в
+          простонародье - Пирожок.
+        </p>
+      </div>
+    </section>
+    <section class="sleep" id="sleep">
+      <h2 class="play__title">Любимое хобби</h2>
+      <div class="sleep__quote">
+        <p class="sleep__quote-text">
+          «Мне необходимы восемь часов сна ночью. И еще десять днем»
+        </p>
+        <p class="sleep__quote-author">&#169; Пирожок</p>
+      </div>
+      <div class="sleep__photos">
+        <div class="sleep__photo">
+          <img src="./images/cat__sleep.jpg" alt="Фото" class="sleep__pic" />
+          <div class="content__image-cover">
+            <p class="content__image-name">Сплю на ноутбуке мамы</p>
+          </div>
+        </div>
+        <div class="sleep__photo">
+          <img src="./images/cat__sleep2.jpg" alt="Фото" class="sleep__pic" />
+          <div class="content__image-cover">
+            <p class="content__image-name">Сплю на конспектах мамы</p>
+          </div>
+        </div>
+        <div class="sleep__photo">
+          <img src="./images/cat__sleep3.jpg" alt="Фото" class="sleep__pic" />
+          <div class="content__image-cover">
+            <p class="content__image-name">Сплю как царь</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="play" id="play">
+      <div class="play__content">
+        <h2 class="play__title">Какой Пирожок ты сегодня?</h2>
+        <div class="play__galery">
+          <div class="cards__item play__card">
+            <input
+              type="radio"
+              class="play__control"
+              id="radioButton1"
+              name="play__story"
+            /><label for="radioButton1" class="play__item">
+              <img
+                src="./images/babycat_street.jpg"
+                alt=""
+                class="cards__image"
+              />
+              <div class="content__image-cover-rounded">
+                <p class="content__image-text">Жмяк</p>
+              </div>
+            </label>
+            <p class="play__text">Открытый новому</p>
+          </div>
+          <div class="cards__item play__card">
+            <input
+              type="radio"
+              class="play__control"
+              id="radioButton2"
+              name="play__story"
+            /><label for="radioButton2" class="play__item"
+              ><img src="./images/angry_cat.jpg" alt="" class="cards__image" />
+              <div class="content__image-cover-rounded">
+                <p class="content__image-text">Жмяк</p>
+              </div>
+            </label>
+            <p class="play__text">Злой на кожанных мешков</p>
+          </div>
+          <div class="cards__item play__card">
+            <input
+              type="radio"
+              class="play__control"
+              id="radioButton3"
+              name="play__story"
+            /><label for="radioButton3" class="play__item"
+              ><img src="./images/arrogant.jpg" alt="" class="cards__image" />
+              <div class="content__image-cover-rounded">
+                <p class="content__image-text">Жмяк</p>
+              </div></label
+            >
+            <p class="play__text">Высокомерный котей</p>
+          </div>
+          <div class="cards__item play__card">
+            <input
+              type="radio"
+              class="play__control"
+              id="radioButton4"
+              name="play__story"
+            /><label for="radioButton4" class="play__item"
+              ><img src="./images/pensive.jpg" alt="" class="cards__image" />
+              <div class="content__image-cover-rounded">
+                <p class="content__image-text">Жмяк</p>
+              </div></label
+            >
+            <p class="play__text">Размышляющий о смысле бытия</p>
+          </div>
+          <div class="cards__item play__card">
+            <input
+              type="radio"
+              class="play__control"
+              id="radioButton5"
+              name="play__story"
+            /><label for="radioButton5" class="play__item"
+              ><img src="./images/sleepy.jpg" alt="" class="cards__image" />
+              <div class="content__image-cover-rounded">
+                <p class="content__image-text">Жмяк</p>
+              </div></label
+            >
+            <p class="play__text">Скучающий по кроватке</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_slider">
+      <div class="wrapper">
+        <input type="radio" name="point" id="slide1" class="radio slide1-on" checked>
+        <input type="radio" name="point" id="slide2" class="radio slide2-on">
+        <input type="radio" name="point" id="slide3" class="radio slide3-on">
+        <input type="radio" name="point" id="slide4" class="radio slide4-on">
+        <input type="radio" name="point" id="slide5" class="radio slide5-on">
+        <div class="slider">
+          <div class="slides slide1"></div>
+          <div class="slides slide2"></div>
+          <div class="slides slide3"></div>
+          <div class="slides slide4"></div>
+          <div class="slides slide5"></div>
+        </div>
+        <div class="controls">
+          <label class="label" for="slide1"><div class="new-button"></div></label>
+          <label  class="label" for="slide2"><div class="new-button"></div></label>
+          <label class="label" for="slide3"><div class="new-button"></div></label>
+          <label class="label" for="slide4"><div class="new-button"></div></label>
+          <label class="label" for="slide5"><div class="new-button"></div></label>
+        </div>
+      </div>
+       
+    </section>
+  </body>
+</html> -->
