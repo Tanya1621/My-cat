@@ -1,0 +1,13 @@
+.menu__list-item {
+    list-style: none;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 50px;
+    margin:0;
+    transition: background-color 1s ease;
+    
+}
+
+.menu__list-item:hover {
+    background-color: #b8c1d4c5;
+   }

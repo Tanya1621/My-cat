@@ -1,0 +1,7 @@
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+    margin: 0;
+}
