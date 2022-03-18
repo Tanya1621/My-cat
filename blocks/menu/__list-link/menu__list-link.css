@@ -1,4 +1,20 @@
 .menu__list-link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
 }
+
+@media screen and (min-width: 1024px) {
+  .menu__list-link {
+    font-size: 20px;
+  }
+
+}
+@media screen and (max-width: 606px) {
+    .menu__list-link {
+      font-size: 10px;
+    }
+  }
+
+  

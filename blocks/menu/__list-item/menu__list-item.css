@@ -1,7 +1,5 @@
 .menu__list-item {
     list-style: none;
-    padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px 50px;
     margin:0;
     transition: background-color 1s ease;
@@ -11,3 +9,21 @@
 .menu__list-item:hover {
     background-color: #b8c1d4c5;
    }
+
+   @media screen and (max-width: 909px) {
+    .menu__list-item {
+        padding: 20px 20px;
+    }
+  }
+  @media screen and (max-width: 606px) {
+    .menu__list-item {
+        padding: 10px 10px;
+    }
+  }
+
+  @media screen and (max-width: 414x) {
+    .menu__list-item {
+        padding: 30px 50px;
+    }
+  }
+ 

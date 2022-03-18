@@ -1,4 +1,12 @@
 .menu {
     background-color:#FFCCF5;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+@media screen and (max-width: 414px) {
+    .menu {
+      width: 100%;
+    }
+  }

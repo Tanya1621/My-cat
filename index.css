@@ -6,7 +6,9 @@
 @import url(./blocks/menu/__list/menu__list.css);
   
 
-
+.page {
+    
+}
 
 .cat-photo {
     width: 100%;
@@ -16,6 +18,13 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .cat-photo {
+        height: 300px;
+    } 
 }
 
 .cat-heading {
@@ -28,6 +37,20 @@
     transition: transform 1s ease;
     
 }
+
+
+@media screen and (max-width: 980px) {
+    .cat-heading {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .cat-heading {
+        font-size: 24px;
+    } 
+}
+
 
 
 .cat-heading:hover {
