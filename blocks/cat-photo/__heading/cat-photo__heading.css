@@ -11,11 +11,6 @@
     }
   }
   
-  @media screen and (max-width: 500px) {
-    .cat-photo__heading  {
-      font-size: 24px;
-    }
-  }
   
   .cat-photo__heading:hover {
     transform: scale(1.1);
