@@ -1,0 +1,12 @@
+.about__title {
+  font-size: 70px;
+  margin: 50px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .about__title {
+    font-size: 40px;
+  }
+}

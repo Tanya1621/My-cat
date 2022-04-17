@@ -1,5 +1,5 @@
-const images = document.querySelectorAll(".cards__image");
-const cardsItems = document.querySelectorAll(".cards__item");
+const images = document.querySelectorAll(".play__image");
+const cardsItems = document.querySelectorAll(".play__card");
 
 // function openText (element) {
 //     const closestText = element.closest('.play__text');
@@ -13,7 +13,7 @@ function checkOpen (opened_) {
 }
 
 cardsItems.forEach(function (element) {
-  const image = element.querySelector(".cards__image");
+  const image = element.querySelector(".play__image");
   image.addEventListener("click", function () {
     const opened = document.querySelector('.play__text_opened');
     checkOpen (opened);

@@ -1,0 +1,9 @@
+.play__card {
+  transition: transform 1s ease;
+  text-align: center;
+}
+
+.play__card:hover {
+  transform: scale(1.05);
+  transition: transform 1s ease;
+}
