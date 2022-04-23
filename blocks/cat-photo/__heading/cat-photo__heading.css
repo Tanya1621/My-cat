@@ -1,0 +1,26 @@
+.cat-photo__heading {
+    margin: 0;
+    font-size: 80px;
+    color: #ffccf5;
+    transition: transform 1s ease;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .cat-photo__heading {
+      font-size: 40px;
+    }
+  }
+  
+  
+  .cat-photo__heading:hover {
+    transform: scale(1.1);
+  }
+
+@media screen and (max-width: 500px) {
+  .cat-photo__heading {
+    width: 80%;
+    padding-bottom: 50px;
+  }
+}
+  

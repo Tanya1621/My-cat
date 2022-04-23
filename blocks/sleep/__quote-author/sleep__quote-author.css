@@ -1,0 +1,11 @@
+.sleep__quote-author {
+  margin: 20px auto 0;
+  font-size: 50px;
+  text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+  .sleep__quote-author {
+    font-size: 30px;
+  }
+}

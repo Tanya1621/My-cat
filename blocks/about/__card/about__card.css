@@ -1,0 +1,27 @@
+.about__card {
+  width: 320px;
+  height: 320px;
+  background-color: #ffccf5;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+  .about__card {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__card {
+    width: 250px;
+  }
+}
+
+.about__card:hover {
+  transform: scale(1.05);
+}

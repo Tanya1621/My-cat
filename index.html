@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +12,7 @@
     <nav class="menu">
       <ul class="menu__list">
         <li class="menu__list-item">
-          <a href="#about" class="menu__list-link">О ПИРОЖКЕ</a>
+          <a href="#about" class="menu__list-link">ОБО МНЕ</a>
         </li>
         <li class="menu__list-item">
           <a href="#sleep" class="menu__list-link">ХОББИ</a>
@@ -20,47 +20,27 @@
         <li class="menu__list-item">
           <a href="#play" class="menu__list-link">НАСТРОЕНИЕ</a>
         </li>
-        <li class="menu__list-item">
-          <a href="#" class="menu__list-link">УМИЛИТЕЛЬНЫЕ ФОТО</a>
-        </li>
       </ul>
     </nav>
     <section class="cat-photo">
-      <h1 class="cat-heading">Меня зовут Пирожок</h1>
+      <h1 class="cat-photo__heading">Меня зовут Пирожок</h1>
     </section>
     <section class="about" id="about">
-      <div class="title">
-        <h2 class="about__title">Моя история</h2>
-        <div class="about__image">
-          <img src="./images/babycat_hands.jpg" alt="" class="about__img" />
+      <h2 class="about__title">Моя история</h2>
+      <div class="about__cards">
+        <div class="about__card">
+          <h3 class="about__heading">Начало</h3>
         </div>
-      </div>
-      <div class="about__story">
-        <p class="about__paragraph">
-          Это было еще в доковидные времена, 6 февраля 2017 года. Помню, было
-          светло, на улице завывала метель и был слышен стук зубов проходящих
-          внизу людишек. Я был смышленным котенком, много ел и все драл, так что
-          меня решили продать по скидке.
-        </p>
-        <p class="about__paragraph">
-          В один дождливый день пришла она, от нее приятно пахло, она была
-          нерасторопна и неуклюжа. Я сначала испугался, но по своей обычной
-          природе, я подошел к ней и своим тоненьким голоском приказал меня
-          почесать. Она склонилась и с радостью почесала мое пузико. Так Танюша
-          стала моей мамой-кошкой.
-        </p>
-        <p class="about__paragraph">
-          Придя домой я понял, что дома больше никого, но был еще один слабый
-          запах, я его решил проигнорировать и сразу занял кровать. Все было
-          прекрасно и я думал что попал в рай, пока не приехал он. Тиран,
-          безумец и самый добрый, ласковый не просто человек, а лучший друг
-          котеек - Николай Евгеньевич. И звать меня - Арагорн Потапов или в
-          простонародье - Пирожок.
-        </p>
+        <div class="about__card">
+          <h3 class="about__heading">Встреча</h3>
+        </div>
+        <div class="about__card">
+          <h3 class="about__heading">Новый дом</h3>
+        </div>
       </div>
     </section>
     <section class="sleep" id="sleep">
-      <h2 class="play__title">Любимое хобби</h2>
+      <h2 class="sleep__title">Любимое хобби</h2>
       <div class="sleep__quote">
         <p class="sleep__quote-text">
           «Мне необходимы восемь часов сна ночью. И еще десять днем»
@@ -70,60 +50,66 @@
       <div class="sleep__photos">
         <div class="sleep__photo">
           <img src="./images/cat__sleep.jpg" alt="Фото" class="sleep__pic" />
-          <div class="content__image-cover">
-            <p class="content__image-name">Сплю на ноутбуке мамы</p>
+          <div class="sleep__image-cover">
+            <p class="sleep__image-name">Сплю на ноутбуке мамы</p>
           </div>
         </div>
         <div class="sleep__photo">
           <img src="./images/cat__sleep2.jpg" alt="Фото" class="sleep__pic" />
-          <div class="content__image-cover">
-            <p class="content__image-name">Сплю на конспектах мамы</p>
+          <div class="sleep__image-cover">
+            <p class="sleep__image-name">Сплю на конспектах мамы</p>
           </div>
         </div>
         <div class="sleep__photo">
           <img src="./images/cat__sleep3.jpg" alt="Фото" class="sleep__pic" />
-          <div class="content__image-cover">
-            <p class="content__image-name">Сплю как царь</p>
+          <div class="sleep__image-cover">
+            <p class="sleep__image-name">Сплю как царь</p>
           </div>
         </div>
       </div>
     </section>
+    <div class="popup">
+      <div class="popup__wrapper">
+        <button class="popup__close"></button>
+        <h2 class="popup__heading"></h2>
+        <p class="popup__text"></p>
+      </div>
+    </div>
     <section class="play" id="play">
       <div class="play__content">
         <h2 class="play__title">Какой Пирожок ты сегодня?</h2>
         <div class="play__gallery">
-        <div class="cards__item play__card">
+          <div class="play__card">
             <img
               src="./images/babycat_street.jpg"
               alt=""
-              class="cards__image"
+              class="play__image"
             />
-
             <p class="play__text">Открытый новому</p>
           </div>
-          <div class="cards__item play__card">
-            <img src="./images/angry_cat.jpg" alt="" class="cards__image" />
+          <div class="play__card">
+            <img src="./images/angry_cat.jpg" alt="" class="play__image" />
 
-            <p class="play__text">Злой на кожанных мешков</p>
+            <p class="play__text">Злой на кожаных мешков</p>
           </div>
-          <div class="cards__item play__card">
-            <img src="./images/arrogant.jpg" alt="" class="cards__image" />
+          <div class="play__card">
+            <img src="./images/arrogant.jpg" alt="" class="play__image" />
             <p class="play__text">Высокомерный котей</p>
           </div>
-          <div class="cards__item play__card">
-            <img src="./images/pensive.jpg" alt="" class="cards__image" />
+          <div class="play__card">
+            <img src="./images/pensive.jpg" alt="" class="play__image" />
             <p class="play__text">Размышляющий о смысле бытия</p>
           </div>
-          <div class="cards__item play__card">
-            <img src="./images/sleepy.jpg" alt="" class="cards__image" />
+          <div class="play__card">
+            <img src="./images/sleepy.jpg" alt="" class="play__image" />
             <p class="play__text">Скучающий по кроватке</p>
           </div>
-          <div class="cards__item play__card">
-            <img src="./images/IMG_0984.jpeg" alt="" class="cards__image" />
+          <div class="play__card">
+            <img src="./images/IMG_0984.jpeg" alt="" class="play__image" />
             <p class="play__text">Паникующий</p>
           </div>
         </div>
-      </div> 
+      </div>
     </section>
     <footer class="footer">
       <p class="footer__copyright">&copy; Пирожок</p>
